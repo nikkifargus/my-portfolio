@@ -1,9 +1,9 @@
 {
-  "name": "angular-controllers-2-way-binding",
-  "description": "An intro to angular controllers and 2-way binding.",
+  "name": "nikki-fargus-portfolio",
+  "description": "nikki-fargus-portfolio.",
   "main": "index.js",
   "authors": [
-    "alexpchin <alex@alexchin.co.uk>"
+    "nikkifargus <nikki@fargus.co.uk>"
   ],
   "license": "ISC",
   "homepage": "",
