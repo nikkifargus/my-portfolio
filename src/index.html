@@ -1,15 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Nikki Fargus</title>
-    <base href="/" />
-    <!-- inject:js -->
-    <!-- endinject -->
-    <!-- inject:css -->
-    <!-- endinject -->
-  </head>
-  <body>
-    <h1>Nikki Fargus Portfolio coming soon...</h1>
-  </body>
+<html ng-app="portfolio">
+<head>
+  <meta charset="utf-8">
+  <title>Nikki Fargus</title>
+  <base href="/" />
+  <!-- inject:js -->
+  <!-- endinject -->
+  <!-- inject:css -->
+  <!-- endinject -->
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" ui-sref="landing">NF</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a ui-sref="about"><p>About</p></a>
+            </li>
+            <li>
+              <a ui-sref="work"><p>Work</p></a>
+            </li>
+            <li>
+              <a ui-sref="work"><p>Contact</p></a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.-fluid -->
+    </nav>
+  </header>
+  <h1>Nikki Fargus Portfolio coming soon...</h1>
+  <main ui-view>
+
+  </main>
+</body>
 </html>
