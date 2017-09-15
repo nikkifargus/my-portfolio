@@ -1,5 +1,4 @@
 angular
   .module('portfolio', [
-    'ui.router',
-    'ngResource'
+    'ui.router'
   ]);
