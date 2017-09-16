@@ -3,55 +3,42 @@
 <head>
   <meta charset="utf-8">
   <title>Nikki Fargus</title>
+  <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
   <base href="/" />
   <!-- inject:js -->
   <!-- endinject -->
   <!-- inject:css -->
   <!-- endinject -->
 </head>
-<body>
-  <header>
-    <nav>
-      <div class="">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" ui-sref="home">NF</a>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav ">
-            <li>
-              <a ui-sref="about"><p>About</p></a>
-            </li>
-            <li>
-              <a ui-sref="work"><p>Work</p></a>
-            </li>
-            <li>
-              <a ui-sref="contact"><p>Contact</p></a>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="https://github.com/nikkifargus"><p>G</p></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/nikkifargus/"><p>L</p></a>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.-fluid -->
-    </nav>
+<body>
+
+  <header>
+    <ul class="top">
+      <li><p ui-sref="home">HOME</p></li>
+      <li><p> - </p></li>
+      <li><p ui-sref="about">ABOUT</p></li>
+      <li><p> - </p></li>
+      <li><p ui-sref="work">WORK</p></li>
+    </ul>
   </header>
-  <h1>Nikki Fargus Portfolio coming soon...</h1>
-  <main ui-view>
+
+  <main class="container" ui-view>
 
   </main>
+  <footer>
+    <ul class= "row">
+      <li class= "col-xs-4">
+        <p><a href="https://github.com/nikkifargus">nikkifargus</a></p>
+      </li>
+      <li class= "col-xs-4">
+        <p>nikki@fargus.co.uk</p>
+      </li>
+      <li class= "col-xs-4">
+        <div class=""><div class="emailIcon">
+        </div><p><a href="https://www.linkedin.com/in/nikkifargus/">nikkifargus</a></p></div>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>

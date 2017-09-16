@@ -1,1 +1,18 @@
+@import 'footer';
+@import 'nav';
 
+ul{
+  list-style-type: none;
+}
+
+.emailIcon {
+    width: 6%;
+    max-width: 40px;
+    background-image: url(images/github-256.png);
+    height: 20px;
+    float: right;
+    margin: 25px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 20px 20px;
+}
