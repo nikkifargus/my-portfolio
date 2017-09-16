@@ -14,21 +14,13 @@
 <body>
 
   <header>
-    <nav>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li>
-            <a ui-sref="home"><p>HOME</p></a>
-          </li>
-          <li>
-            <a ui-sref="about"><p>ABOUT</p></a>
-          </li>
-          <li>
-            <a ui-sref="work"><p>WORK</p></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <ul class="top">
+      <li><p ui-sref="home">HOME</p></li>
+      <li><p> - </p></li>
+      <li><p ui-sref="about">ABOUT</p></li>
+      <li><p> - </p></li>
+      <li><p ui-sref="work">WORK</p></li>
+    </ul>
   </header>
 
   <main class="container" ui-view>
@@ -36,17 +28,17 @@
   </main>
   <footer>
     <ul class= "row">
-  <li class= "col-xs-4">
-    <p>nikki@fargus.co.uk</p>
-  </li>
-  <li class= "col-xs-4">
-    <p href="www.github.com/nikkifargus">nikkifargus</p>
-  </li>
-  <li class= "col-xs-4">
-    <p href="www.linkedin.com/in/nikkifargus">nikkifargus</p>
-  </li>
-</ul>
-
+      <li class= "col-xs-4">
+        <p><a href="https://github.com/nikkifargus">nikkifargus</a></p>
+      </li>
+      <li class= "col-xs-4">
+        <p>nikki@fargus.co.uk</p>
+      </li>
+      <li class= "col-xs-4">
+        <div class=""><div class="emailIcon">
+        </div><p><a href="https://www.linkedin.com/in/nikkifargus/">nikkifargus</a></p></div>
+      </li>
+    </ul>
   </footer>
 </body>
 </html>
