@@ -1,9 +1,18 @@
 .proj{
   div{
-    text-align: center
+    text-align: center;
+    img{
+      box-shadow: 5px 5px 2.5px #888888;
+
+    }
   }
   .links{
     text-align: center;
+    h3{
+      display: inline-block;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
     a{
       color: black;
     }
