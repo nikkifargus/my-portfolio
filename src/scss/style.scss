@@ -3,6 +3,7 @@
 @import 'work';
 @import '_about';
 @import '_proj';
+@import '_home';
 
 ul{
   list-style-type: none;
@@ -34,4 +35,16 @@ img{
 
 hr{
   margin: 0;
+}
+
+.test{
+  .black{
+    background-color: black;
+    width: 100%;
+  }
+  .red{
+    background-color: red;
+    width: 100%;
+
+  }
 }

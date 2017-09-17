@@ -1,0 +1,21 @@
+.homeSection{
+  padding: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  .row{
+    padding: 0;
+    .photoMe{
+      width: 85%;
+      margin:0 auto;
+      text-align: center;
+      img{
+        width: 70%;
+      }
+    }
+    .aboutMe{
+      width: 85%;
+      margin:0 auto;
+      margin-top: 2rem;
+    }
+  }
+}
