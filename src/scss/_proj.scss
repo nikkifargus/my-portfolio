@@ -1,9 +1,10 @@
 .projSection{
   padding: 0;
   margin-top: 5%;
-  // margin-bottom: 5%;
+  margin-bottom: 0;
   .row{
     padding: 0;
+    margin: 0;
     li{
       padding: 5px;
     }
@@ -11,7 +12,7 @@
       margin:0 auto;
       padding: 0;
       text-align: center;
-      width: 85%;
+      // width: 85%;
       a{
         color: black;
       }
@@ -24,5 +25,13 @@
         margin-top: 0;
       }
     }
+  }
+}
+
+.arrows{
+  h1{
+    margin: 0;
+    cursor: pointer;
+
   }
 }
