@@ -1,0 +1,27 @@
+.projSection{
+  padding: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  .row{
+    padding: 0;
+    li{
+      padding: 5px;
+    }
+    .photoProj{
+      margin:0 auto;
+      padding: 0;
+      text-align: center;
+      width: 95%;
+      a{
+        color: black;
+      }
+    }
+    .aboutProj{
+      h2{
+        margin-top: 0;
+      }
+      margin:0 auto;
+      padding: 0;
+    }
+  }
+}
