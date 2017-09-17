@@ -1,19 +1,23 @@
-.links{
-
-  text-align: center;
-  a{
-    color: black;
+.proj{
+  div{
+    text-align: center
+  }
+  .links{
+    text-align: center;
+    a{
+      color: black;
+    }
+  }
+  .blurb{
+    text-align: center;
+  }
+  img{
+    width: 60%;
   }
 }
-
-.blurb{
-  text-align: center;
-}
-
 .arrows{
   h1{
     margin: 0;
     cursor: pointer;
-
   }
 }
