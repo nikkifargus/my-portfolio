@@ -31,9 +31,9 @@ function Router($stateProvider, $locationProvider, $urlRouterProvider){
     url: '/proj4',
     templateUrl: '/js/views/proj4.html'
   })
-  .state('about', {
-    url: '/about',
-    templateUrl: '/js/views/about.html'
+  .state('contact', {
+    url: '/contact',
+    templateUrl: '/js/views/contact.html'
   });
 
   $urlRouterProvider.otherwise('/');

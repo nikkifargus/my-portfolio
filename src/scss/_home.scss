@@ -1,7 +1,7 @@
 .homeSection{
   padding: 0;
   margin-top: 5%;
-  margin-bottom: 5%;
+  // margin-bottom: 5%;
   .row{
     padding: 0;
     .photoMe{
@@ -18,4 +18,20 @@
       margin-top: 2rem;
     }
   }
+}
+
+.aboutSection{
+
+  div{
+    text-align: center;
+    margin: 0 auto;
+    .icon{
+      width: 40%;
+      text-align: center;
+    }
+  }
+h2{
+  text-align: center;
+  margin-bottom: 3rem;
+}
 }
