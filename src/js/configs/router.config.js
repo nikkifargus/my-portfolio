@@ -7,9 +7,9 @@ function Router($stateProvider, $locationProvider, $urlRouterProvider){
   $locationProvider.html5Mode(true);
 
   $stateProvider
-  .state('contact', {
+  .state('about', {
     url: '/',
-    templateUrl: '/js/views/contact.html'
+    templateUrl: '/js/views/about.html'
   })
   .state('work', {
     url: '/work',
@@ -31,9 +31,9 @@ function Router($stateProvider, $locationProvider, $urlRouterProvider){
     url: '/proj4',
     templateUrl: '/js/views/proj4.html'
   })
-  .state('about', {
-    url: '/about',
-    templateUrl: '/js/views/about.html'
+  .state('contact', {
+    url: '/contact',
+    templateUrl: '/js/views/contact.html'
   });
 
   $urlRouterProvider.otherwise('/');
