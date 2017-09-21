@@ -5,6 +5,7 @@
   // margin-top: 2%;
   padding:0;
   text-align:center;
+  // position: fixed;
   li{
     display:inline;
     h1{
@@ -15,5 +16,11 @@
       font-family: 'Nixie One', cursive;
       margin-bottom: 0;
     }
+  }
+}
+
+.top{
+  h1:hover{
+    font-weight: bold;
   }
 }

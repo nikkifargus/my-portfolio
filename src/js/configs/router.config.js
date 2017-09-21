@@ -1,6 +1,6 @@
 angular
-  .module('portfolio')
-  .config(Router);
+.module('portfolio')
+.config(Router);
 
 Router.$inject = ['$stateProvider', '$locationProvider', '$urlRouterProvider'];
 function Router($stateProvider, $locationProvider, $urlRouterProvider){
@@ -9,7 +9,14 @@ function Router($stateProvider, $locationProvider, $urlRouterProvider){
   $stateProvider
   .state('about', {
     url: '/',
-    templateUrl: '/js/views/about.html'
+    templateUrl: '/js/views/about.html',
+    controller: function($scope, $stateParams) {
+      // get the id
+      $scope.id = $stateParams.aboutID;
+
+      // get the location
+      $scope.location = $stateParams.partyLocation;
+    }
   })
   .state('work', {
     url: '/work',
