@@ -9,14 +9,14 @@ function Router($stateProvider, $locationProvider, $urlRouterProvider){
   $stateProvider
   .state('about', {
     url: '/',
-    templateUrl: '/js/views/about.html',
-    controller: function($scope, $stateParams) {
-      // get the id
-      $scope.id = $stateParams.aboutID;
-
-      // get the location
-      $scope.location = $stateParams.partyLocation;
-    }
+    templateUrl: '/js/views/about.html'
+    // controller: function($scope, $stateParams) {
+    //   // get the id
+    //   $scope.id = $stateParams.aboutID;
+    //
+    //   // get the location
+    //   $scope.location = $stateParams.partyLocation;
+    // }
   })
   .state('work', {
     url: '/work',
