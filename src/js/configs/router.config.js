@@ -15,7 +15,7 @@ function Router($stateProvider, $locationProvider, $urlRouterProvider){
     //   $scope.id = $stateParams.aboutID;
     //
     //   // get the location
-    //   $scope.location = $stateParams.partyLocation;
+    //   $scope.location = $stateParams.about;
     // }
   })
   .state('work', {

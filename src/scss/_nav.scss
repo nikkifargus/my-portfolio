@@ -1,11 +1,14 @@
 .top{
   border-width:1px 0;
   list-style:none;
-  margin-bottom:0;
-  // margin-top: 2%;
-  padding:0;
+  position: fixed;
+  background-color: white;
   text-align:center;
-  // position: fixed;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  width: 100%;
+  z-index: 5;
+  margin-bottom: 3%;
   li{
     display:inline;
     h1{
@@ -14,7 +17,8 @@
       color: black;
       cursor: pointer;
       font-family: 'Nixie One', cursive;
-      margin-bottom: 0;
+      text-align:center;
+
     }
   }
 }
