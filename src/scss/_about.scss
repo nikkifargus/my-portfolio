@@ -1,26 +1,19 @@
 
 .introSection{
   padding: 0;
-  // margin-top: 10%;
 
   .row{
     padding: 0;
     .photoMe{
-      width: 85%;
       margin:0 auto;
-      // text-align: center;
+      text-align: right;
       img{
-        width: 85%;
+        width: 75%;
         margin-top:20px;
-        float: right;
       }
     }
     .aboutMe{
-      h2{
-      }
-      // width: 85%;
       margin:0 auto;
-      // margin-top: 2rem;
     }
   }
 }
@@ -35,8 +28,24 @@
       text-align: center;
     }
   }
-h2{
-  text-align: center;
-  margin-bottom: 3rem;
+  h2{
+    text-align: center;
+    margin-bottom: 3rem;
+  }
 }
+
+@media only screen and (max-width: 500px) {
+  .introSection{
+    .row{
+      .photoMe{
+        text-align: center;
+        img{
+        }
+      }
+      .aboutMe{
+        text-align: center;
+      }
+    }
+  }
+
 }
