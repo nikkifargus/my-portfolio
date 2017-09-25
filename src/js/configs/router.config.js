@@ -7,9 +7,9 @@ function Router($stateProvider, $locationProvider, $urlRouterProvider){
   $locationProvider.html5Mode(true);
 
   $stateProvider
-  .state('about', {
+  .state('home', {
     url: '/',
-    templateUrl: '/js/views/about.html'
+    templateUrl: '/js/views/home.html'
     // controller: function($scope, $stateParams) {
     //   // get the id
     //   $scope.id = $stateParams.aboutID;
@@ -17,6 +17,10 @@ function Router($stateProvider, $locationProvider, $urlRouterProvider){
     //   // get the location
     //   $scope.location = $stateParams.about;
     // }
+  })
+  .state('about', {
+    url: '/about',
+    templateUrl: '/js/views/about.html'
   })
   .state('work', {
     url: '/work',
