@@ -1,8 +1,6 @@
 .addSection{
-    // margin-top: 10%;
   text-align: center;
   padding: 0;
-  // margin-top: 3%;
   h3{
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -17,34 +15,21 @@
       cursor: pointer;
       width: 75%;
       overflow: hidden;
-      margin:0 auto;
+      margin: auto;
+      margin-top: 20px;
       padding: 0;
       box-shadow: 5px 5px 2.5px #888888;
-
+          -o-transition:0.4s;
+          -ms-transition:0.4s;
+          -moz-transition:0.4s;
+          -webkit-transition:0.4s;
+          transition:0.4s;
     }
   }
 }
 
-// .homepage-subtitle-holder {
-//   padding-left: 20px;
-//   padding-top: 40px;
-//   width: 80%;
-//   height: 200px;
-//   background-color: rgba(0,0,0,0.1);
-//   h4 {
-//     color: darken(#9c9ea3, 55%);
-//   }
-//   h1 {
-//     opacity: 0;
-//     -o-transition:0.5s;
-//     -ms-transition:0.5s;
-//     -moz-transition:0.5s;
-//     -webkit-transition:0.5s;
-//     transition:0.5s;
-//   }
-// }
-// .homepage-subtitle-holder:hover {
-//   h1 {
-//     opacity: 1;
-//   }
-// }
+.addSection{
+.addPhoto:hover{
+  box-shadow: 8px 8px 3.5px darken(#888888, 15%);
+}
+}
